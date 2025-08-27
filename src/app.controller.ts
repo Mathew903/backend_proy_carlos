@@ -41,7 +41,7 @@ export class AppController {
   
   @Post('api/send-data')
   createTempAndHum(
-    @Body() data: DataSensor, //{data: {temp: number, hum: number}}
+    @Body() data: DataSensor, //{data: {temperature: number, humidity: number}}
     @Res() res: Response
   ) {
     console.log(data)

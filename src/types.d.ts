@@ -1,4 +1,4 @@
 export type DataSensor = {
-    temp: number,
-    hum: number
+    temperature: number,
+    humidity: number
 }
